@@ -3,46 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hinata Shoyo - Haikyuu!!</title>
+<title>Ulasan Hinata Shoyo - Haikyuu!!</title>
 <style>
   :root { --orange:#ff7a1a; --black:#1b1b1b; --bg:#fff7ee; }
   * { box-sizing:border-box; margin:0; }
-  body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--black); line-height:1.6; }
+  body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--black); line-height:1.7; }
   header { background:var(--black); color:#fff; padding:1rem 1.5rem; border-bottom:6px solid var(--orange); }
-  header h1 { font-size:1.2rem; letter-spacing:.05em; }
-  main { max-width:900px; margin:2rem auto; padding:0 1rem; display:grid; gap:2rem; grid-template-columns:1fr 1.2fr; align-items:center; }
-  figure { background:#fff; padding:.75rem; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,.15); transform:rotate(-2deg); }
-  figure img { width:100%; display:block; border-radius:8px; }
-  figcaption { text-align:center; font-size:.85rem; padding-top:.5rem; color:#666; }
-  h2 { color:var(--orange); font-size:2rem; }
-  .jp { color:#888; margin-bottom:1rem; }
-  ul { padding-left:1.2rem; margin:1rem 0; }
-  blockquote { border-left:4px solid var(--orange); padding-left:1rem; font-style:italic; }
-  footer { text-align:center; padding:2rem; font-size:.8rem; color:#888; }
-  @media (max-width:640px) { main { grid-template-columns:1fr; } }
+  header h1 { font-size:1.1rem; letter-spacing:.05em; }
+  main { max-width:860px; margin:2rem auto; padding:0 1rem; }
+  .hero { display:grid; grid-template-columns:1fr 1.3fr; gap:2rem; align-items:center; margin-bottom:2.5rem; }
+  .hero svg { width:100%; background:#fff; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,.12); }
+  h2 { color:var(--orange); font-size:2rem; line-height:1.2; margin-bottom:.5rem; }
+  h3 { margin:1.5rem 0 .4rem; }
+  .jp { color:#888; }
+  table { border-collapse:collapse; width:100%; background:#fff; border-radius:8px; overflow:hidden; }
+  td { padding:.6rem .9rem; border-bottom:1px solid #eee; }
+  td:first-child { font-weight:600; width:35%; }
+  footer { text-align:center; padding:2rem 1rem; font-size:.8rem; color:#777; }
+  @media (max-width:640px) { .hero { grid-template-columns:1fr; } }
 </style>
 </head>
 <body>
-<header><h1>🏐 KARASUNO HIGH VOLLEYBALL CLUB</h1></header>
+<header><h1>🏐 ULASAN PENGGEMAR · HAIKYUU!!</h1></header>
 <main>
-  <figure>
-    <!-- Ganti dengan foto/gambar asli: taruh file di images/hinata.jpg lalu ubah src -->
-    <img src="images/hinata.svg" alt="Hinata Shoyo, Haikyuu!!">
-    <figcaption>Hinata Shoyo - Karasuno No. 10</figcaption>
-  </figure>
-  <section>
-    <h2>Hinata Shoyo</h2>
-    <p class="jp">日向 翔陽</p>
-    <p>Karakter utama anime/manga <strong>Haikyuu!!</strong> karya Haruichi Furudate. Meski bertubuh pendek, Hinata punya lompatan luar biasa dan semangat pantang menyerah.</p>
-    <ul>
-      <li>Posisi: Middle Blocker</li>
-      <li>Klub: SMA Karasuno</li>
-      <li>Tinggi: 162,8 cm (SMA kelas 1)</li>
-      <li>Duet andalan: Quick attack bersama Kageyama Tobio</li>
-    </ul>
-    <blockquote>"Aku bisa terbang!"</blockquote>
+  <section class="hero">
+    <!-- Grafis orisinal: bola voli di atas net, tanpa gambar karakter -->
+    <svg viewBox="0 0 300 300" role="img" aria-label="Ilustrasi bola voli melompati net">
+      <rect width="300" height="300" fill="#fff"/>
+      <path d="M0 200 H300" stroke="#1b1b1b" stroke-width="6"/>
+      <g stroke="#1b1b1b" stroke-width="1.5" opacity=".35">
+        <path d="M0 215 H300 M0 230 H300 M0 245 H300"/>
+        <path d="M20 200 V260 M60 200 V260 M100 200 V260 M140 200 V260 M180 200 V260 M220 200 V260 M260 200 V260"/>
+      </g>
+      <circle cx="150" cy="95" r="45" fill="#ff7a1a"/>
+      <path d="M105 95 Q150 60 195 95 M110 125 Q150 90 190 130 M150 50 Q130 95 150 140" fill="none" stroke="#fff" stroke-width="4"/>
+      <path d="M150 190 V150" stroke="#ff7a1a" stroke-width="4" stroke-dasharray="6 6"/>
+    </svg>
+    <div>
+      <h2>Hinata Shoyo</h2>
+      <p class="jp">日向 翔陽</p>
+      <p>Tokoh utama <em>Haikyuu!!</em> karya Haruichi Furudate. Ia membuktikan bahwa tinggi badan bukan satu-satunya modal di lapangan voli.</p>
+    </div>
   </section>
+
+  <h3>Profil singkat</h3>
+  <table>
+    <tr><td>Tim</td><td>SMA Karasuno</td></tr>
+    <tr><td>Posisi</td><td>Middle blocker</td></tr>
+    <tr><td>Kekuatan</td><td>Lompatan tinggi, kelincahan, stamina</td></tr>
+    <tr><td>Tantangan</td><td>Postur lebih pendek dari rata-rata pemain</td></tr>
+  </table>
+
+  <h3>Mengapa karakternya menarik?</h3>
+  <p>Menurut saya, daya tarik Hinata ada pada proses belajarnya. Ia mulai dari kemampuan teknis yang minim, lalu memperbaikinya lewat latihan, kerja sama, dan rasa ingin tahu. Cerita seperti ini mudah dirasakan siapa saja yang pernah memulai sesuatu dari nol.</p>
+
+  <h3>Pelajaran yang bisa diambil</h3>
+  <p>Kelemahan bisa diimbangi dengan kelebihan lain. Kerja sama tim sering menentukan hasil lebih besar daripada bakat sendirian. Latihan konsisten lebih berharga daripada menunggu kondisi sempurna.</p>
 </main>
-<footer>Contoh website - nala-union/contoh-lagi. Karakter © Haruichi Furudate / Shueisha.</footer>
+<footer>
+  Situs penggemar tidak resmi. <em>Haikyuu!!</em> dan para tokohnya adalah milik Haruichi Furudate / Shueisha.<br>
+  Seluruh teks dan grafis di halaman ini dibuat sendiri; tidak ada gambar atau kutipan dari karya aslinya.
+</footer>
 </body>
 </html>
